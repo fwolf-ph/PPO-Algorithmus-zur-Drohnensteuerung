@@ -12,7 +12,12 @@ The drone is controlled by adjusting the thrust of its **left and right rotors**
 https://github.com/user-attachments/assets/103d9201-d79b-4354-8d69-1901f3e4302a
 
 
+## Project Structure and Deliverables
 
+The project consists of the following key components:
+
+* **`drone_env.zip`**: This archive contains the simulation environment and the reference testing suite provided by the project supervisor for benchmarking and validation.
+* **`PPODrone.py`**: The final implementation of the autonomous flight controller. This script utilizes the Proximal Policy Optimization (PPO) algorithm and serves as the officially approved solution for the project requirements.
 
 ## How it Works
 The project implements the **Proximal Policy Optimization (PPO)** algorithm, an Actor-Critic method. The workflow includes:
