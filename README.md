@@ -7,6 +7,13 @@ The objective of this project is to train a drone to navigate within a simulated
 
 The drone is controlled by adjusting the thrust of its **left and right rotors**, requiring the agent to learn complex stabilization and navigation maneuvers simultaneously.
 
+
+
+https://github.com/user-attachments/assets/103d9201-d79b-4354-8d69-1901f3e4302a
+
+
+
+
 ## How it Works
 The project implements the **Proximal Policy Optimization (PPO)** algorithm, an Actor-Critic method. The workflow includes:
 1. **Data Collection:** The drone interacts with the environment, storing trajectories (states, actions, rewards).
